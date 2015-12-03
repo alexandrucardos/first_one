@@ -10,6 +10,7 @@ $DB->Connect('localhost','test','test','baza de date');
 $test = $DB->Execute("select t.numeTask from taskuri t where t.idTask = 1;");
 
 
+ this is the 'test test branch'
 echo $test ;
 echo "</br>".$test ;
 print_r($test);
